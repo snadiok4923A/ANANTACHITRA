@@ -4,6 +4,34 @@ import { Search, Download, X, Maximize2, ChevronLeft, Image as ImageIcon } from 
 import { WALLPAPER_DATA } from './wallpaperData';
 
 /**
+ * Utility function to handle direct image downloads
+ */
+const downloadWallpaper = async (e, wallpaper) => {
+  if (e) e.stopPropagation();
+  
+  try {
+    const response = await fetch(wallpaper.image);
+    if (!response.ok) throw new Error('Network response was not ok');
+    
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+    
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `Anantachitra-${wallpaper.id}.jpg`;
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    window.URL.revokeObjectURL(url);
+  } catch (error) {
+    console.error('Download failed:', error);
+    alert('Failed to download wallpaper. Please try again.');
+  }
+};
+
+/**
  * Advanced Three.js Plexus Animation
  * Morphs particles between various geometric shapes to simulate brain, DNA, rings, etc.
  */
@@ -327,10 +355,7 @@ const WallpaperCard = ({ wallpaper, onClick }) => {
         
         {/* Quick Download Button (Stops propagation to avoid opening viewer) */}
         <button 
-          onClick={(e) => {
-            e.stopPropagation();
-            window.open(wallpaper.image, '_blank');
-          }}
+          onClick={(e) => downloadWallpaper(e, wallpaper)}
           className="absolute top-4 right-4 bg-white/10 p-2 rounded-full backdrop-blur-md opacity-0 group-hover:opacity-100 transform scale-90 group-hover:scale-100 transition-all duration-300 hover:bg-white text-white hover:text-black"
           title="Download Original"
         >
@@ -356,16 +381,8 @@ const WallpaperViewer = ({ wallpaper, onClose }) => {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onClose]);
 
-  const handleDownload = () => {
-    // For external URLs in a pure client environment, creating a temporary link to open/download is standard.
-    // To force download properly cross-origin, standard practice is opening in new tab or relying on user browser settings if fetch blob is blocked by CORS.
-    const link = document.createElement('a');
-    link.href = wallpaper.image;
-    link.download = `${wallpaper.title.replace(/\s+/g, '_').toLowerCase()}_anantachitra.jpg`;
-    link.target = '_blank';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleDownload = (e) => {
+    downloadWallpaper(e, wallpaper);
   };
 
   return (
@@ -512,7 +529,7 @@ const CollectionPage = () => {
       </header>
 
       {/* Main Content Area */}
-      <main className="max-w-[100rem] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <main className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         
         {/* Results Info */}
         <div className="mb-8 flex items-center justify-between text-zinc-500 text-sm tracking-widest uppercase">
@@ -522,7 +539,7 @@ const CollectionPage = () => {
 
         {/* Dynamic Grid Layout (CSS Columns for Masonry effect) */}
         {filteredWallpapers.length > 0 ? (
-          <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 sm:gap-6 space-y-4 sm:space-y-6">
+          <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 2xl:columns-5 min-[1920px]:columns-6 min-[2560px]:columns-8 gap-4 sm:gap-6 space-y-4 sm:space-y-6">
             {filteredWallpapers.map((wp) => (
               <WallpaperCard 
                 key={wp.id} 
