@@ -316,7 +316,7 @@ const WallpaperCard = ({ wallpaper, onClick }) => {
 
   return (
     <div 
-      className="group relative mb-4 sm:mb-6 rounded-sm overflow-hidden bg-zinc-900 cursor-pointer break-inside-avoid transform transition-all duration-500 ease-out hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-black/50"
+      className="group relative rounded-sm overflow-hidden bg-zinc-900 cursor-pointer w-full transform transition-all duration-500 ease-out hover:-translate-y-1 shadow-lg hover:shadow-2xl hover:shadow-black/50"
       onClick={() => onClick(wallpaper)}
     >
       {/* Loading Skeleton */}
@@ -481,6 +481,51 @@ const LandingPage = ({ onEnterCollection }) => {
 };
 
 /**
+ * Responsive Masonry Grid Component
+ */
+const MasonryGrid = ({ items, renderItem, minColumnWidth = 320 }) => {
+  const [columns, setColumns] = useState(1);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const updateColumns = () => {
+      if (!containerRef.current) return;
+      const width = containerRef.current.offsetWidth;
+      // Calculate max columns based on minimum width per column
+      let maxCols = Math.floor(width / minColumnWidth) || 1;
+      
+      // Ensure we don't create empty columns on the right
+      let actualCols = Math.min(maxCols, items.length);
+      
+      // Ensure at least 1 column
+      actualCols = Math.max(1, actualCols);
+      
+      setColumns(actualCols);
+    };
+
+    updateColumns();
+    window.addEventListener('resize', updateColumns);
+    return () => window.removeEventListener('resize', updateColumns);
+  }, [items.length, minColumnWidth]);
+
+  // Distribute items into columns (round-robin)
+  const columnData = Array.from({ length: columns }, () => []);
+  items.forEach((item, index) => {
+    columnData[index % columns].push(item);
+  });
+
+  return (
+    <div ref={containerRef} className="flex w-full gap-4 sm:gap-6 items-start">
+      {columnData.map((colItems, colIndex) => (
+        <div key={colIndex} className="flex flex-col flex-1 gap-4 sm:gap-6 w-full">
+          {colItems.map(item => renderItem(item))}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+/**
  * Main Collection Page Component
  */
 const CollectionPage = () => {
@@ -537,17 +582,18 @@ const CollectionPage = () => {
           {searchQuery && <span>Results for "{searchQuery}"</span>}
         </div>
 
-        {/* Dynamic Grid Layout (CSS Columns for Masonry effect) */}
+        {/* Dynamic Grid Layout (Responsive Flex Masonry) */}
         {filteredWallpapers.length > 0 ? (
-          <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 2xl:columns-5 min-[1920px]:columns-6 min-[2560px]:columns-8 gap-4 sm:gap-6 space-y-4 sm:space-y-6">
-            {filteredWallpapers.map((wp) => (
+          <MasonryGrid 
+            items={filteredWallpapers}
+            renderItem={(wp) => (
               <WallpaperCard 
                 key={wp.id} 
                 wallpaper={wp} 
                 onClick={setSelectedWallpaper} 
               />
-            ))}
-          </div>
+            )}
+          />
         ) : (
           /* Empty State */
           <div className="flex flex-col items-center justify-center py-32 sm:py-48 text-center animate-fade-in">
