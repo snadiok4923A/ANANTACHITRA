@@ -1,7 +1,124 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import * as THREE from 'three';
-import { Search, Download, X, Maximize2, ChevronLeft, Image as ImageIcon } from 'lucide-react';
+import { Search, Download, X, Maximize2, ChevronLeft, Image as ImageIcon, LayoutGrid, Sparkles, Flame, Smartphone, Monitor } from 'lucide-react';
 import { WALLPAPER_DATA } from './wallpaperData';
+import { CONTRIBUTORS_DATA } from './contributorsData';
+
+/**
+ * Fisher-Yates Shuffle
+ * Returns a new shuffled array without mutating the original.
+ */
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
+// Shuffle the collection once per page load to ensure a stable randomized order
+const SHUFFLED_WALLPAPERS = shuffleArray(WALLPAPER_DATA);
+
+/**
+ * Inline Instagram SVG Icon
+ */
+const InstagramIcon = ({ size = 24, className = "" }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    width={size} 
+    height={size} 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round" 
+    className={className}
+  >
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
+
+/**
+ * Utility to extract Instagram username from URL
+ */
+const getInstagramUsername = (url) => {
+  try {
+    const urlObj = new URL(url);
+    const pathParts = urlObj.pathname.split('/').filter(Boolean);
+    return pathParts.length > 0 ? `@${pathParts[0]}` : 'Instagram Profile';
+  } catch (e) {
+    return 'Instagram Profile';
+  }
+};
+
+/**
+ * Reusable Contributors Button with Dropdown Panel
+ */
+const ContributorsButton = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  return (
+    <div 
+      className="fixed top-4 right-4 sm:top-6 sm:right-8 z-50"
+      ref={dropdownRef}
+      onMouseEnter={() => window.innerWidth >= 768 && setIsOpen(true)}
+      onMouseLeave={() => window.innerWidth >= 768 && setIsOpen(false)}
+    >
+      <button 
+        onClick={() => setIsOpen(!isOpen)}
+        className="group relative px-6 py-2.5 bg-black/40 hover:bg-black/60 backdrop-blur-xl border border-white/10 hover:border-white/30 rounded-full transition-all duration-500 flex items-center justify-center shadow-2xl"
+      >
+        <span className="relative z-10 text-xs uppercase tracking-[0.2em] font-medium text-white/90 group-hover:text-white transition-colors bg-clip-text">
+          <span className="animate-shine bg-[linear-gradient(110deg,#a1a1aa,45%,#ffffff,55%,#a1a1aa)] bg-[length:200%_100%] bg-clip-text text-transparent">
+            Contributors
+          </span>
+        </span>
+      </button>
+
+      {/* Dropdown Panel */}
+      <div 
+        className={`absolute top-full right-0 pt-3 transition-all duration-500 origin-top-right ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}
+      >
+        <div className="w-64 bg-[#0a0a0a]/95 backdrop-blur-2xl border border-white/10 rounded-2xl p-5 shadow-2xl">
+          <h4 className="text-[10px] uppercase tracking-[0.3em] text-zinc-500 mb-4 pb-3 border-b border-white/5 font-medium">Core Team</h4>
+        <div className="flex flex-col gap-1">
+          {CONTRIBUTORS_DATA.map(contributor => (
+            <div key={contributor.id} className="flex flex-col gap-1.5 p-2.5 -mx-2 rounded-xl hover:bg-white/5 transition-colors group/item">
+              <span className="text-sm font-medium text-zinc-200 group-hover/item:text-white transition-colors tracking-wide">{contributor.name}</span>
+              <a 
+                href={contributor.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-300 transition-colors w-fit"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <InstagramIcon size={14} className="group-hover/item:text-pink-500 transition-colors" />
+                <span>{getInstagramUsername(contributor.instagram)}</span>
+              </a>
+            </div>
+          ))}
+        </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 /**
  * Utility function to handle direct image downloads
@@ -29,6 +146,20 @@ const downloadWallpaper = async (e, wallpaper) => {
     console.error('Download failed:', error);
     alert('Failed to download wallpaper. Please try again.');
   }
+};
+
+/**
+ * Helper to get optimized image from Cloudinary
+ * Injects f_auto, q_auto, w_{width}, c_limit before the version /v.../ segment
+ */
+const getOptimizedImage = (url, width) => {
+  if (!url || typeof url !== 'string') return url;
+  
+  if (url.includes('res.cloudinary.com') && url.includes('/upload/')) {
+    return url.replace('/upload/', `/upload/f_auto,q_auto,w_${width},c_limit/`);
+  }
+  
+  return url;
 };
 
 /**
@@ -328,7 +459,7 @@ const WallpaperCard = ({ wallpaper, onClick }) => {
       
       {/* Actual Image with Lazy Loading */}
       <img
-        src={wallpaper.image}
+        src={getOptimizedImage(wallpaper.image, 800)}
         alt={wallpaper.title}
         loading="lazy"
         onLoad={() => setIsLoaded(true)}
@@ -528,23 +659,45 @@ const MasonryGrid = ({ items, renderItem, minColumnWidth = 320 }) => {
 /**
  * Main Collection Page Component
  */
-const CollectionPage = () => {
+const CollectionPage = ({ onGoBack }) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedWallpaper, setSelectedWallpaper] = useState(null);
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const categories = [
+    { id: 'All', icon: LayoutGrid },
+    { id: 'Recent', icon: Sparkles },
+    { id: 'Popular', icon: Flame },
+    { id: 'Mobile', icon: Smartphone },
+    { id: 'PC', icon: Monitor }
+  ];
   
   // Memoize filtered results for performance with large datasets (up to 1000)
   const filteredWallpapers = useMemo(() => {
-    if (!searchQuery.trim()) return WALLPAPER_DATA;
-    
-    const query = searchQuery.toLowerCase();
-    return WALLPAPER_DATA.filter(wp => {
-      // Search logic: check if any tag contains the search query, or title contains it
-      return (
+    let result = SHUFFLED_WALLPAPERS;
+
+    // Apply category filter first
+    if (activeCategory === "Recent") {
+      result = [...WALLPAPER_DATA]
+        .filter(wp => wp.image && wp.image.trim() !== "")
+        .sort((a, b) => b.id - a.id)
+        .slice(0, 20);
+    } else if (activeCategory !== "All") {
+      const cat = activeCategory.toLowerCase();
+      result = result.filter(wp => wp.tags.some(tag => tag.toLowerCase() === cat));
+    }
+
+    // Apply search filter
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      result = result.filter(wp => 
         wp.tags.some(tag => tag.toLowerCase().includes(query)) ||
         wp.title.toLowerCase().includes(query)
       );
-    });
-  }, [searchQuery]);
+    }
+    
+    return result;
+  }, [searchQuery, activeCategory]);
 
   return (
     <div className="min-h-screen bg-[#050505] text-white">
@@ -552,9 +705,18 @@ const CollectionPage = () => {
       <header className="sticky top-0 z-40 w-full bg-black/60 backdrop-blur-xl border-b border-white/5 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between">
           
-          {/* Logo Minimal */}
-          <div className="text-xl sm:text-2xl font-light tracking-widest hidden sm:block">
-            ANANTA<span className="font-semibold text-zinc-400">C.</span>
+          {/* Back Button & Logo Minimal */}
+          <div className="flex items-center gap-2 sm:gap-4 pr-3 sm:pr-6 shrink-0">
+            <button 
+              onClick={onGoBack}
+              className="text-zinc-500 hover:text-white transition-colors p-2 -ml-2 rounded-full hover:bg-white/5"
+              title="Return to Landing Page"
+            >
+              <ChevronLeft size={24} />
+            </button>
+            <div className="text-xl sm:text-2xl font-light tracking-widest cursor-pointer hidden sm:block" onClick={onGoBack}>
+              ANANTA<span className="font-semibold text-zinc-400">C.</span>
+            </div>
           </div>
 
           {/* Search Input */}
@@ -572,6 +734,52 @@ const CollectionPage = () => {
           </div>
         </div>
       </header>
+
+      {/* Category Navigation Bar */}
+      <div className="w-full bg-[#050505] border-b border-white/5 sticky top-20 sm:top-24 z-30 pt-4 pb-2 transition-all duration-300">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex overflow-x-auto pb-2 scrollbar-hide">
+            <div className="flex items-center gap-3 mx-auto w-max px-1">
+              {categories.map((category) => {
+              const Icon = category.icon;
+              const isActive = activeCategory === category.id;
+              
+              let textClasses = "text-sm font-medium tracking-wide ";
+              let iconClasses = "transition-colors ";
+              
+              if (isActive) {
+                iconClasses += "text-white";
+                if (category.id === 'Recent') {
+                  textClasses += "animate-shine bg-[linear-gradient(110deg,#a1a1aa,45%,#ffffff,55%,#a1a1aa)] bg-[length:200%_100%] bg-clip-text text-transparent";
+                } else if (category.id === 'Popular') {
+                  textClasses += "animate-gradient-text bg-[linear-gradient(to_right,#ff8a00,#e52e71,#9b2cff,#ff8a00)] bg-[length:200%_auto] bg-clip-text text-transparent";
+                } else {
+                  textClasses += "text-white";
+                }
+              } else {
+                iconClasses += "text-zinc-400 group-hover:text-zinc-200";
+                textClasses += "text-zinc-400 group-hover:text-zinc-200 transition-colors";
+              }
+
+              return (
+                <button
+                  key={category.id}
+                  onClick={() => setActiveCategory(category.id)}
+                  className={`group flex items-center gap-2 px-5 py-2.5 rounded-full whitespace-nowrap transition-all duration-300 ${
+                    isActive 
+                      ? "bg-white/10 border border-white/20 shadow-[0_0_15px_rgba(255,255,255,0.05)]" 
+                      : "bg-white/5 border border-white/5 hover:bg-white/10 hover:border-white/10"
+                  }`}
+                >
+                  <Icon size={16} className={iconClasses} />
+                  <span className={textClasses}>{category.id}</span>
+                </button>
+              );
+            })}
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Main Content Area */}
       <main className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
@@ -628,10 +836,21 @@ const CollectionPage = () => {
  * Manages the high-level state between the Landing view and the Collection view.
  */
 export default function App() {
-  const [currentView, setCurrentView] = useState('landing'); // 'landing' | 'collection'
+  const [currentView, setCurrentView] = useState(() => {
+    return sessionStorage.getItem('anantachitra_view') || 'landing';
+  });
+
+  const handleNavigate = (view) => {
+    sessionStorage.setItem('anantachitra_view', view);
+    if (view === 'collection') {
+      window.scrollTo(0, 0);
+    }
+    setCurrentView(view);
+  };
 
   return (
     <div className="font-sans antialiased bg-[#050505] text-white selection:bg-white selection:text-black min-h-screen">
+      <ContributorsButton />
       
       {/* 
         Injecting CSS safely using inline style tags to guarantee animations 
@@ -662,6 +881,32 @@ export default function App() {
           animation: scale-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
 
+        @keyframes shine {
+          to {
+            background-position: -200% center;
+          }
+        }
+        .animate-shine {
+          animation: shine 3s linear infinite;
+        }
+
+        @keyframes gradient-text {
+          to {
+            background-position: -200% center;
+          }
+        }
+        .animate-gradient-text {
+          animation: gradient-text 3s linear infinite;
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+        }
+        .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+
         /* Custom Scrollbar for a premium feel */
         ::-webkit-scrollbar {
           width: 8px;
@@ -684,12 +929,9 @@ export default function App() {
       `}} />
 
       {currentView === 'landing' ? (
-        <LandingPage onEnterCollection={() => {
-          window.scrollTo(0,0);
-          setCurrentView('collection');
-        }} />
+        <LandingPage onEnterCollection={() => handleNavigate('collection')} />
       ) : (
-        <CollectionPage />
+        <CollectionPage onGoBack={() => handleNavigate('landing')} />
       )}
     </div>
   );
