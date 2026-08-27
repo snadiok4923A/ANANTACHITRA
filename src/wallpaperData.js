@@ -854,11 +854,7 @@ export const WALLPAPER_DATA = [
   tags: ["goku", "dragon-ball", "anime", "saiyan", "perfected", "ultra-instinct", "popular", "pc"]
 },
  
-{
-    id: 142,
-    title : "Kame-House-Dragon"
-    
-}
+
   //
   
 ];
