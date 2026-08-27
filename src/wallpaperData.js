@@ -781,8 +781,84 @@ export const WALLPAPER_DATA = [
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787817277/hello-world-pixel-7680x4320-15168.png",
   tags: ["hello-world", "pixel", "coding", "programming", "developer", "technology", "retro", "pc","popular"]
 },
-
+{
+  id: 130,
+  title: "Scorpion vs Sub-Zero",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787823272/scorpion-vs-sub-7680x4320-18945.jpg",
+  tags: ["scorpion", "sub-zero", "mortal-kombat", "gaming", "fighting", "action", "popular", "pc"]
+},
+{
+  id: 131,
+  title: "Windows 11 Dark Mode",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787823266/windows-11-dark-mode-abstract-background-black-background-7680x4320-8710.jpg",
+  tags: ["windows-11", "microsoft", "dark-mode", "abstract", "black", "technology", "popular", "pc"]
+},
+{
+  id: 132,
+  title: "Japanese Artistic",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822211/japan-artistic-5120x2880-25406.jpg",
+  tags: ["japan", "japanese", "artistic", "culture", "traditional", "art", "popular", "pc"]
+},
+{
+  id: 133,
+  title: "Spider-Man Intense",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822159/spider-man-intense-6895x2880-25455.jpg",
+  tags: ["spider-man", "marvel", "superhero", "action", "intense", "comic", "popular", "pc"]
+},
+{
+  id: 134,
+  title: "Zenitsu Agatsuma",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822117/zenitsu-agatsuma-5120x2880-24472.png",
+  tags: ["zenitsu", "zenitsu-agatsuma", "demon-slayer", "anime", "kimetsu-no-yaiba", "yellow", "popular", "pc"]
+},
+{
+  id: 135,
+  title: "Spider-Man Marvel",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822092/spider-man-marvel-6000x4000-11025.jpg",
+  tags: ["spider-man", "marvel", "superhero", "comic", "action", "hero", "popular", "pc"]
+},
+{
+  id: 136,
+  title: "Sagittarius A Black",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822076/sagittarius-a-black-5120x2880-25401.jpg",
+  tags: ["space", "sagittarius-a", "black-hole", "astronomy", "universe", "science", "popular", "pc"]
+},
+{
+  id: 137,
+  title: "Solo Leveling",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822070/solo-leveling-3840x2160-26864.jpg",
+  tags: ["solo-leveling", "sung-jinwoo", "anime", "manhwa", "hunter", "shadow", "popular", "pc"]
+},
+{
+  id: 138,
+  title: "Monkey D. Luffy",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822061/monkey-d-luffy-5120x2880-26035.jpg",
+  tags: ["monkey-d-luffy", "luffy", "one-piece", "anime", "pirate", "gear-5", "popular", "pc"]
+},
+{
+  id: 139,
+  title: "Itachi Uchiha Moon",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822034/itachi-uchiha-moon-5120x2880-25777.jpg",
+  tags: ["itachi", "uchiha", "naruto", "anime", "moon", "akatsuki", "popular", "pc"]
+},
+{
+  id: 140,
+  title: "Gargantua Black Hole",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822028/gargantua-black-5200x3250-9621.jpg",
+  tags: ["gargantua", "black-hole", "space", "interstellar", "astronomy", "universe", "popular", "pc"]
+},
+{
+  id: 141,
+  title: "Perfected Goku",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822007/goku-perfected-5120x2880-25454.jpg",
+  tags: ["goku", "dragon-ball", "anime", "saiyan", "perfected", "ultra-instinct", "popular", "pc"]
+},
  
+{
+    id: 142,
+    title : "Kame-House-Dragon"
+    
+}
   //
   
 ];
