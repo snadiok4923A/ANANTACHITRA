@@ -853,8 +853,482 @@ export const WALLPAPER_DATA = [
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822007/goku-perfected-5120x2880-25454.jpg",
   tags: ["goku", "dragon-ball", "anime", "saiyan", "perfected", "ultra-instinct", "popular", "pc"]
 },
- 
+{
+  id: 142,
+  title: "Spider-Man Sky",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930776/spiderman-sky-4k-wallpaper-22372.jpg",
+  tags: ["spider-man", "marvel", "superhero", "sky", "action", "comic", "popular", "mobile"]
+},
+{
+  id: 143,
+  title: "Spider-Man Skyscraper Ascent",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930775/spider-man-skyscraper-ascent-4k-wallpaper-27324.png",
+  tags: ["spider-man", "marvel", "superhero", "skyscraper", "city", "action", "popular", "mobile"]
+},
+{
+  id: 144,
+  title: "Spider-Man No Internet",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930771/spider-man-no-internet-wallpaper-46409.jpg",
+  tags: ["spider-man", "marvel", "superhero", "no-internet", "offline", "minimal", "popular", "mobile"]
+},
+{
+  id: 145,
+  title: "White Ferrari 458 Italia",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930770/white-ferrari-458-italia-4k-wallpaper-24386_1.jpg",
+  tags: ["ferrari", "458-italia", "car", "supercar", "white", "luxury", "automotive", "popular", "mobile"]
+},
+{
+  id: 146,
+  title: "Symbiote Spider-Man",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930768/symbiote-spiderman-dark-aesthetic-4k-wallpaper-22994.jpg",
+  tags: ["symbiote", "spider-man", "marvel", "venom", "dark", "aesthetic", "superhero", "popular", "mobile"]
+},
+{
+  id: 147,
+  title: "Stealth Black M4",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930767/stealth-black-m4-oled-wallpaper-24274.jpg",
+  tags: ["bmw-m4", "bmw", "car", "stealth", "black", "oled", "automotive", "popular", "mobile"]
+},
+{
+  id: 148,
+  title: "Spider-Man Comic",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930767/spiderman-comic-4k-wallpaper-23330.jpg",
+  tags: ["spider-man", "marvel", "comic", "superhero", "red", "action", "popular", "mobile"]
+},
+{
+  id: 149,
+  title: "Cristiano Ronaldo Sunglasses",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930764/ronaldo-sunglasses-mullet-wallpaper-49312.png",
+  tags: ["cristiano-ronaldo", "ronaldo", "football", "soccer", "sunglasses", "sports", "popular", "mobile"]
+},
+{
+  id: 150,
+  title: "Spider-Man Emblem",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930764/spider-man-emblem-symbol-minimalist-marvel-superhero-logo-4k-wallpaper-21624.webp",
+  tags: ["spider-man", "marvel", "logo", "emblem", "symbol", "minimal", "superhero", "popular", "mobile"]
+},
+{
+  id: 151,
+  title: "Football Legends Monochrome",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930762/monochrome-football-legends-wallpaper-44983.jpg",
+  tags: ["football", "soccer", "legends", "monochrome", "sports", "players", "black-and-white", "popular", "mobile"]
+},
+{
+  id: 152,
+  title: "Spider-Man 4K",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930761/spider-man-4k-wallpaper-23003.jpg",
+  tags: ["spider-man", "marvel", "superhero", "action", "red", "comic", "4k", "popular", "mobile"]
+},
+{
+  id: 153,
+  title: "Spider-Man 3D",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930761/spiderman-3d-wallpaper-21829.webp",
+  tags: ["spider-man", "marvel", "3d", "superhero", "digital-art", "action", "popular", "mobile"]
+},
+{
+  id: 154,
+  title: "Serene Girl Submerged",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930760/serene-girl-submerged-wallpaper-44000.jpg",
+  tags: ["girl", "underwater", "submerged", "serene", "blue", "aesthetic", "art", "popular", "mobile"]
+},
+{
+  id: 155,
+  title: "Spartan Golden Crest",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930760/spartan-golden-crest-wallpaper-45099.jpg",
+  tags: ["spartan", "warrior", "greek", "gold", "crest", "armor", "dark", "popular", "mobile"]
+},
+{
+  id: 156,
+  title: "No Internet Escape",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930757/no-internet-escape-wallpaper-35582.jpg",
+  tags: ["no-internet", "offline", "escape", "minimal", "dark", "creative", "popular", "mobile"]
+},
+{
+  id: 157,
+  title: "Solitary Cloud Tree",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930757/solitary-cloud-tree-wallpaper-46454.jpg",
+  tags: ["tree", "cloud", "sky", "nature", "solitary", "blue", "peaceful", "popular", "mobile"]
+},
+{
+  id: 158,
+  title: "Shadow Spider-Man Shush",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930754/shadow-spider-man-shush-wallpaper-46786.webp",
+  tags: ["spider-man", "marvel", "shadow", "shush", "superhero", "dark", "minimal", "popular", "mobile"]
+},
+{
+  id: 159,
+  title: "Self Sculptor Statue",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930752/self-sculptor-statue-wallpaper-35184.jpg",
+  tags: ["statue", "sculpture", "self-sculptor", "art", "creative", "dark", "philosophy", "popular", "mobile"]
+},
+{
+  id: 160,
+  title: "Retro Pixel Hands",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930751/retro-pixel-hands-wallpaper-35670.jpg",
+  tags: ["retro", "pixel-art", "hands", "gaming", "pixel", "nostalgia", "digital-art", "popular", "mobile"]
+},
+{
+  id: 161,
+  title: "Scuderia Ferrari SF-24",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930751/scuderia-ferrari-sf-24-wallpaper-42028.jpg",
+  tags: ["ferrari", "sf-24", "formula-1", "f1", "racing", "motorsport", "red", "popular", "mobile"]
+},
+{
+  id: 162,
+  title: "Max Verstappen Red Bull",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930749/red-bull-max-verstappen-wallpaper-48736.png",
+  tags: ["max-verstappen", "red-bull", "formula-1", "f1", "racing", "driver", "motorsport", "popular", "mobile"]
+},
+{
+  id: 163,
+  title: "Red Porsche 911 GT3 RS",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930749/red-porsche-911-gt3-rs-dark-background-4k-wallpaper-24262.jpg",
+  tags: ["porsche", "911-gt3-rs", "car", "supercar", "red", "luxury", "automotive", "popular", "mobile"]
+},
+{
+  id: 164,
+  title: "No Internet Nature",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930748/no-internet-nature-wallpaper-35215.jpg",
+  tags: ["nature", "no-internet", "offline", "landscape", "peaceful", "green", "aesthetic", "popular", "mobile"]
+},
+{
+  id: 165,
+  title: "Rainbow Light Anime",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930745/rainbow-light-anime-wallpaper-48236.jpg",
+  tags: ["anime", "rainbow", "light", "colorful", "fantasy", "aesthetic", "vibrant", "popular", "mobile"]
+},
+{
+  id: 166,
+  title: "Dino Bike Ride",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930744/no-internet-dino-bike-ride-wallpaper-38073.jpg",
+  tags: ["dinosaur", "dino", "bike", "ride", "funny", "creative", "no-internet", "popular", "mobile"]
+},
+{
+  id: 167,
+  title: "Red BMW M8 Competition",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930744/red-bmw-m8-competition-4k-wallpaper-24374.jpg",
+  tags: ["bmw", "m8", "competition", "car", "red", "luxury", "automotive", "popular", "mobile"]
+},
+{
+  id: 168,
+  title: "Porsche 911 GT3 RS",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930741/porsche-911-gt3-rs-4k-static-wallpaper-24256.webp",
+  tags: ["porsche", "911-gt3-rs", "car", "supercar", "sports-car", "luxury", "automotive", "popular", "mobile"]
+},
+{
+  id: 169,
+  title: "Neymar Jr Santos Monochrome",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930740/neymar-jr-santos-monochrome-wallpaper-43061.png",
+  tags: ["neymar-jr", "santos", "football", "soccer", "monochrome", "brazil", "sports", "popular", "mobile"]
+},
+{
+  id: 170,
+  title: "No Internet Ocean View",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930739/no-internet-ocean-view-wallpaper-35368.jpg",
+  tags: ["ocean", "sea", "nature", "no-internet", "offline", "blue", "peaceful", "popular", "mobile"]
+},
+{
+  id: 171,
+  title: "No Internet Dino",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930734/no-internet-dino-wallpaper-35367.jpg",
+  tags: ["dinosaur", "dino", "no-internet", "offline", "funny", "creative", "green", "popular", "mobile"]
+},
+{
+  id: 172,
+  title: "Miles Morales Neon City",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930731/miles-morales-across-the-spider-verse-neon-city-4k-wallpaper-21415.webp",
+  tags: ["miles-morales", "spider-man", "spider-verse", "neon", "city", "marvel", "superhero", "popular", "mobile"]
+},
+{
+  id: 173,
+  title: "Mysterious Rainbow Face",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930731/mysterious-rainbow-face-wallpaper-48212.jpg",
+  tags: ["rainbow", "face", "mysterious", "abstract", "colorful", "digital-art", "aesthetic", "popular", "mobile"]
+},
+{
+  id: 174,
+  title: "Miles and Gwen Multiverse",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930729/multiverse-miles-gwen-cinematic-4k-wallpaper-22533.webp",
+  tags: ["miles-morales", "gwen-stacy", "spider-verse", "multiverse", "marvel", "cinematic", "superhero", "popular", "mobile"]
+},
+{
+  id: 175,
+  title: "Matte Black Audi RS6",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930726/matte-black-audi-rs6-4k-wallpaper-24288.jpg",
+  tags: ["audi", "rs6", "car", "matte-black", "luxury", "automotive", "performance", "popular", "mobile"]
+},
+{
+  id: 176,
+  title: "Cool Cat Durag",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930726/cool-cat-durag-wallpaper-47715.png",
+  tags: ["cat", "cool", "durag", "funny", "animal", "street-style", "creative", "popular", "mobile"]
+},
+{
+  id: 177,
+  title: "Dark Angel Statue",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930726/monochrome-dark-angel-statue-wallpaper-35558.jpg",
+  tags: ["angel", "statue", "dark", "monochrome", "gothic", "art", "black-and-white", "popular", "mobile"]
+},
+{
+  id: 178,
+  title: "Minimalist F1 Car",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930725/minimalist-f1-car-wallpaper-33462.jpg",
+  tags: ["formula-1", "f1", "racing", "car", "minimalist", "motorsport", "sports", "popular", "mobile"]
+},
+{
+  id: 179,
+  title: "Luffy Joyful Radiance",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930725/luffy-joyful-radiance-wallpaper-45889.png",
+  tags: ["luffy", "one-piece", "anime", "joyboy", "gear-5", "joyful", "colorful", "popular", "mobile"]
+},
+{
+  id: 180,
+  title: "Mercedes G-Class Mobile",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930723/mercedes-g-class-4k-mobile-wallpaper-24298.jpg",
+  tags: ["mercedes", "g-class", "g-wagon", "car", "luxury", "mobile", "4k", "popular"]
+},
+{
+  id: 181,
+  title: "McLaren 4K",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930722/mclaren-4k-wallpaper-22795.jpg",
+  tags: ["mclaren", "supercar", "car", "luxury", "automotive", "racing", "4k", "popular", "mobile"]
+},
+{
+  id: 182,
+  title: "Matte Black Audi RS7",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930721/matte-black-rs7-c8-luxury-8k-22765.webp",
+  tags: ["audi", "rs7", "c8", "car", "matte-black", "luxury", "8k", "popular", "mobile"]
+},
+{
+  id: 183,
+  title: "Dark Aesthetic Woman",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930720/dark-aesthetic-woman-wallpaper-34604.jpg",
+  tags: ["woman", "dark", "aesthetic", "portrait", "moody", "beauty", "cinematic", "popular", "mobile"]
+},
+{
+  id: 184,
+  title: "Luffy No Internet",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930719/luffy-no-internet-wallpaper-34413.jpg",
+  tags: ["luffy", "one-piece", "anime", "no-internet", "offline", "pirate", "popular", "mobile"]
+},
+{
+  id: 185,
+  title: "Lewis Hamilton Ferrari",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930717/lewis-hamilton-ferrari-iphone-portrait-wallpaper-40179.jpg",
+  tags: ["lewis-hamilton", "ferrari", "formula-1", "f1", "racing", "iphone", "portrait", "popular", "mobile"]
+},
+{
+  id: 186,
+  title: "Gojo Satoru",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930716/cool-gojo-satoru-wallpaper-36172.jpg",
+  tags: ["gojo-satoru", "gojo", "jujutsu-kaisen", "anime", "sorcerer", "blue", "popular", "mobile"]
+},
+{
+  id: 187,
+  title: "Cracked Marble Poppies",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930715/cracked-marble-poppies-wallpaper-33814.png",
+  tags: ["poppies", "marble", "flowers", "cracked", "art", "elegant", "dark", "popular", "mobile"]
+},
+{
+  id: 188,
+  title: "Luffy Gear 5 Sun",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930714/luffy-gear-5-sun-wallpaper-45886.png",
+  tags: ["luffy", "gear-5", "one-piece", "anime", "sun", "joyboy", "power", "popular", "mobile"]
+},
+{
+  id: 189,
+  title: "Messi and Neymar Jr",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930700/lionel-messi-and-neymar-jr-4k-wallpaper-23844.jpg",
+  tags: ["lionel-messi", "neymar-jr", "football", "soccer", "barcelona", "legends", "sports", "popular", "mobile"]
+},
+{
+  id: 190,
+  title: "Kintsugi Statue",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930698/kintsugi-statue-pointing-wallpaper-45714.png",
+  tags: ["kintsugi", "statue", "gold", "art", "japanese", "sculpture", "aesthetic", "popular", "mobile"]
+},
+{
+  id: 191,
+  title: "Ancient Spartan Warrior",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930696/legendary-ancient-spartan-dark-armor-helmet-wallpaper-4k-45062.webp",
+  tags: ["spartan", "warrior", "ancient", "armor", "helmet", "gladiator", "dark", "popular", "mobile"]
+},
+{
+  id: 192,
+  title: "Cloud Tree Blue Sky",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930695/cloud-tree-blue-sky-wallpaper-35332.jpg",
+  tags: ["tree", "cloud", "blue-sky", "nature", "landscape", "peaceful", "minimal", "popular", "mobile"]
+},
+{
+  id: 193,
+  title: "Lewis Hamilton Ferrari F1",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930695/lewis-hamilton-ferrari-f1-wallpaper-33353.jpg",
+  tags: ["lewis-hamilton", "ferrari", "formula-1", "f1", "racing", "motorsport", "driver", "popular", "mobile"]
+},
+{
+  id: 194,
+  title: "Lamine Yamal Barcelona",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930693/lamine-yamal-fc-barcelona-aesthetic-4k-wallpaper-23678.jpg",
+  tags: ["lamine-yamal", "barcelona", "fc-barcelona", "football", "soccer", "aesthetic", "player", "popular", "mobile"]
+},
+{
+  id: 195,
+  title: "Lando Norris",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930693/lando-norris-4k-wallpaper-27684.jpg",
+  tags: ["lando-norris", "formula-1", "f1", "racing", "driver", "motorsport", "sports", "popular", "mobile"]
+},
+{
+  id: 196,
+  title: "Gucci Morty Luxury",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930692/gucci-morty-luxury-cash-3d-wallpaper-48842.png",
+  tags: ["morty", "rick-and-morty", "gucci", "luxury", "cash", "3d", "cartoon", "popular", "mobile"]
+},
+{
+  id: 197,
+  title: "Chrome Dino Offline",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930692/chrome-dino-offline-wallpaper-35220.jpg",
+  tags: ["chrome-dino", "google-chrome", "dinosaur", "offline", "no-internet", "minimal", "popular", "mobile"]
+},
+{
+  id: 198,
+  title: "Cat Diamond Grillz",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930692/cat-diamond-grillz-wallpaper-46354.jpg",
+  tags: ["cat", "diamond", "grillz", "luxury", "cool", "animal", "street-style", "popular", "mobile"]
+},
+{
+  id: 199,
+  title: "Gucci Morty Grillz",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930687/gucci-morty-grillz-wallpaper-48910.png",
+  tags: ["morty", "rick-and-morty", "gucci", "grillz", "luxury", "cartoon", "3d", "popular", "mobile"]
+},
+{
+  id: 200,
+  title: "Knight",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930687/knight-4k-wallpaper-22731.jpg",
+  tags: ["knight", "warrior", "armor", "medieval", "sword", "dark", "fantasy", "popular", "mobile"]
+},
+{
+  id: 201,
+  title: "Lewis Hamilton Ferrari",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930682/hamilton-ferrari-wall-wallpaper-40178.jpg",
+  tags: ["lewis-hamilton", "ferrari", "formula-1", "f1", "racing", "driver", "motorsport", "popular", "mobile"]
+},
+{
+  id: 202,
+  title: "Bugatti Bolide",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930681/bugatti-bolide-hypercar-4k-wallpaper-24389.jpg",
+  tags: ["bugatti", "bolide", "hypercar", "supercar", "car", "luxury", "racing", "popular", "mobile"]
+},
+{
+  id: 203,
+  title: "Absolute Obsession Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930673/absolute-obsession-girl-wallpaper-37738.png",
+  tags: ["girl", "woman", "aesthetic", "portrait", "beauty", "dark", "cinematic", "popular", "mobile"]
+},
+{
+  id: 204,
+  title: "Black Rolls-Royce Ghost",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930673/black-rolls-royce-ghost-4k-wallpaper-24291.jpg",
+  tags: ["rolls-royce", "ghost", "car", "luxury", "black", "automotive", "premium", "popular", "mobile"]
+},
+{
+  id: 205,
+  title: "Kimi Antonelli Mercedes",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930673/kimi-antonelli-mercedes-f1-wallpaper-33466.jpg",
+  tags: ["kimi-antonelli", "mercedes", "formula-1", "f1", "racing", "driver", "motorsport", "popular", "mobile"]
+},
+{
+  id: 206,
+  title: "BMW M4",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930670/bmw-m4-4k-static-wallpaper-24301.jpg",
+  tags: ["bmw", "m4", "car", "sports-car", "luxury", "automotive", "4k", "popular", "mobile"]
+},
+{
+  id: 207,
+  title: "Aesthetic Candid Brunette",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930660/aesthetic-candid-brunette-smile-mobile-4k-37752.png",
+  tags: ["woman", "brunette", "smile", "aesthetic", "portrait", "mobile", "4k", "popular"]
+},
+{
+  id: 208,
+  title: "Black Porsche 911 GT3 RS",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930660/black-porsche-911-gt3-rs-4k-wallpaper-22760.webp",
+  tags: ["porsche", "911-gt3-rs", "car", "supercar", "black", "luxury", "automotive", "popular", "mobile"]
+},
+{
+  id: 209,
+  title: "Gucci Morty Flexing",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930657/gucci-morty-flexing-wallpaper-48804.jpg",
+  tags: ["morty", "rick-and-morty", "gucci", "flexing", "cartoon", "luxury", "funny", "popular", "mobile"]
+},
+{
+  id: 210,
+  title: "Golden Spine Warrior",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930655/golden-spine-warrior-wallpaper-45104.jpg",
+  tags: ["warrior", "spine", "gold", "armor", "dark", "fantasy", "art", "popular", "mobile"]
+},
+{
+  id: 211,
+  title: "Gojo Satoru Glowing Blindfold",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930647/gojo-satoru-glowing-blindfold-wallpaper-31091.jpg",
+  tags: ["gojo-satoru", "gojo", "jujutsu-kaisen", "anime", "blindfold", "glowing", "blue", "popular", "mobile"]
+},
+{
+  id: 212,
+  title: "Formula 1 Classic Logo",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930647/formula-1-classic-logo-wallpaper-41566.jpg",
+  tags: ["formula-1", "f1", "logo", "racing", "motorsport", "classic", "sports", "popular", "mobile"]
+},
+{
+  id: 213,
+  title: "Black BMW M4 GTS",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930647/black-bmw-m4-gts-4k-wallpaper-24293.jpg",
+  tags: ["bmw", "m4-gts", "car", "sports-car", "black", "luxury", "automotive", "popular", "mobile"]
+},
+{
+  id: 214,
+  title: "Dynamic Water Statue",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930646/dynamic-water-statue-wallpaper-38258.jpg",
+  tags: ["statue", "water", "dynamic", "sculpture", "art", "blue", "abstract", "popular", "mobile"]
+},
+{
+  id: 215,
+  title: "Bentley Continental GT",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930644/bentley-continental-gt-widebody-black-coupe-4k-wallpaper-24398.jpg",
+  tags: ["bentley", "continental-gt", "coupe", "car", "black", "luxury", "automotive", "popular", "mobile"]
+},
+{
+  id: 216,
+  title: "Ethereal Blue Rose",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930641/ethereal-blue-rose-wallpaper-48896.jpg",
+  tags: ["blue-rose", "rose", "flower", "blue", "ethereal", "nature", "aesthetic", "popular", "mobile"]
+},
+{
+  id: 217,
+  title: "F1 iPhone Wallpaper",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930640/f1-wallpapers-iphone-4k-iphone-19124.webp",
+  tags: ["formula-1", "f1", "racing", "motorsport", "iphone", "mobile", "4k", "popular"]
+},
+{
+  id: 218,
+  title: "Bentley 4K",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930640/bentley-4k-wallpaper-24639.jpg",
+  tags: ["bentley", "car", "luxury", "automotive", "premium", "4k", "sports-car", "popular", "mobile"]
+},
+{
+  id: 219,
+  title: "Audi RS7",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930635/audi-rs7-4k-wallpaper-22764.webp",
+  tags: ["audi", "rs7", "car", "luxury", "automotive", "performance", "4k", "popular", "mobile"]
+},
+{
+  id: 220,
+  title: "Dark Armored Spartan Gladiator",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930635/epic-dark-armored-spartan-gladiator-sword-wallpaper-4k-45076.webp",
+  tags: ["spartan", "gladiator", "warrior", "armor", "sword", "dark", "fantasy", "popular", "mobile"]
+}
 
-  //
+
+
   
 ];
