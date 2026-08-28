@@ -1326,8 +1326,61 @@ export const WALLPAPER_DATA = [
   title: "Dark Armored Spartan Gladiator",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930635/epic-dark-armored-spartan-gladiator-sword-wallpaper-4k-45076.webp",
   tags: ["spartan", "gladiator", "warrior", "armor", "sword", "dark", "fantasy", "popular", "mobile"]
+},
+{
+  id: 221,
+  title: "Dynamic Water Statue",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930635/dynamic-water-statue-wallpaper-38258_1.jpg",
+  tags: ["statue", "water", "dynamic", "sculpture", "art", "blue", "abstract", "popular", "mobile"]
+},
+{
+  id: 222,
+  title: "Doctor Doom's Throne",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930634/doctor-dooms-throne-wallpaper-47383.jpg",
+  tags: ["doctor-doom", "marvel", "throne", "supervillain", "dark", "comic", "cinematic", "popular", "mobile"]
+},
+{
+  id: 223,
+  title: "Diamond Watch Cash",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930633/diamond-watch-cash-wallpaper-38268.jpg",
+  tags: ["diamond", "watch", "cash", "luxury", "money", "rich", "aesthetic", "popular", "mobile"]
+},
+{
+  id: 224,
+  title: "Dark Mode Porsche 911 Carrera",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930621/dark-mode-porsche-911-carrera-4k-wallpaper-21018.webp",
+  tags: ["porsche", "911-carrera", "car", "dark-mode", "luxury", "automotive", "black", "popular", "mobile"]
+},
+{
+  id: 225,
+  title: "Raphinha God's Plan",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930621/4k-raphinha-gods-plan-braided-hair-lock-screen-24850.jpg",
+  tags: ["raphinha", "barcelona", "football", "soccer", "gods-plan", "player", "lock-screen", "popular", "mobile"]
+},
+{
+  id: 226,
+  title: "Audi R8",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930620/audi-r8-4k-wallpaper-24362.jpg",
+  tags: ["audi", "r8", "car", "supercar", "luxury", "automotive", "4k", "popular", "mobile"]
+},
+{
+  id: 227,
+  title: "Audi 4K",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930620/audi-4k-wallpaper-24280.jpg",
+  tags: ["audi", "car", "luxury", "automotive", "premium", "4k", "dark", "popular", "mobile"]
+},
+{
+  id: 228,
+  title: "Dark Knight",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930617/dark-knight-4k-wallpaper-24484.jpg",
+  tags: ["batman", "dark-knight", "dc", "superhero", "gotham", "dark", "cinematic", "popular", "mobile"]
+},
+{
+  id: 229,
+  title: "White Ferrari 458 Italia",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930616/white-ferrari-458-italia-4k-wallpaper-24386.jpg",
+  tags: ["ferrari", "458-italia", "car", "supercar", "white", "luxury", "automotive", "popular", "mobile"]
 }
-
 
 
   
