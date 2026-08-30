@@ -4,6 +4,7 @@ import { Search, Download, X, Maximize2, ChevronLeft, Image as ImageIcon, Layout
 import { WALLPAPER_DATA } from './wallpaperData';
 import { CONTRIBUTORS_DATA } from './contributorsData';
 
+
 /**
  * Fisher-Yates Shuffle
  * Returns a new shuffled array without mutating the original.
@@ -19,6 +20,7 @@ const shuffleArray = (array) => {
 
 // Shuffle the collection once per page load to ensure a stable randomized order
 const SHUFFLED_WALLPAPERS = shuffleArray(WALLPAPER_DATA);
+
 
 /**
  * Inline Instagram SVG Icon
