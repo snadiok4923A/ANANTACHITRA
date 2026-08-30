@@ -93,6 +93,7 @@ const ContributorsButton = () => {
         </span>
       </button>
 
+      
       {/* Dropdown Panel */}
       <div 
         className={`absolute top-full right-0 pt-3 transition-all duration-500 origin-top-right ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}
