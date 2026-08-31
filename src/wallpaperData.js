@@ -1380,8 +1380,13 @@ export const WALLPAPER_DATA = [
   title: "White Ferrari 458 Italia",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930616/white-ferrari-458-italia-4k-wallpaper-24386.jpg",
   tags: ["ferrari", "458-italia", "car", "supercar", "white", "luxury", "automotive", "popular", "mobile"]
+},
+  {
+    id:230,
+      title:"",
+      image:"",
+      tages:[]
 }
-
 
   
 ];
