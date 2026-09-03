@@ -4,10 +4,6 @@ export const CONTRIBUTORS_DATA = [
     name: "Sandipan Paul",
     instagram: "https://www.instagram.com/aax0st/?__pwa=1"
     },
-  { 
-    id : 2,
-      name : "Sayan",
-      instergram: ""
-}
+  
     
 ];
