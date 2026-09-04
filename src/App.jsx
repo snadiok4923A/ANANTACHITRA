@@ -131,6 +131,7 @@ const ContributorsButton = () => {
   );
 };
 
+
 /**
  * Utility function to handle direct image downloads
  */
