@@ -28,6 +28,7 @@ const SHUFFLED_WALLPAPERS = shuffleArray(WALLPAPER_DATA);
 
 
 
+
 /**
  * Inline Instagram SVG Icon
  */
