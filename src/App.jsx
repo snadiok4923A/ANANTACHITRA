@@ -4,6 +4,11 @@ import { Search, Download, X, Maximize2, ChevronLeft, Image as ImageIcon, Layout
 import { WALLPAPER_DATA } from './wallpaperData';
 import { CONTRIBUTORS_DATA } from './contributorsData';
 
+
+
+
+
+
 /**
  * Fisher-Yates Shuffle
  * Returns a new shuffled array without mutating the original.
@@ -19,6 +24,11 @@ const shuffleArray = (array) => {
 
 // Shuffle the collection once per page load to ensure a stable randomized order
 const SHUFFLED_WALLPAPERS = shuffleArray(WALLPAPER_DATA);
+
+
+
+
+
 
 /**
  * Inline Instagram SVG Icon
@@ -91,6 +101,7 @@ const ContributorsButton = () => {
         </span>
       </button>
 
+      
       {/* Dropdown Panel */}
       <div 
         className={`absolute top-full right-0 pt-3 transition-all duration-500 origin-top-right ${isOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}
@@ -119,6 +130,7 @@ const ContributorsButton = () => {
     </div>
   );
 };
+
 
 /**
  * Utility function to handle direct image downloads

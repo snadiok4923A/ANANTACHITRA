@@ -1380,7 +1380,7 @@ export const WALLPAPER_DATA = [
   title: "White Ferrari 458 Italia",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930616/white-ferrari-458-italia-4k-wallpaper-24386.jpg",
   tags: ["ferrari", "458-italia", "car", "supercar", "white", "luxury", "automotive", "popular", "mobile"]
-    },
+},
 {
   id: 230,
   title: "Dancing Deity Sculpture",
@@ -1423,8 +1423,6 @@ export const WALLPAPER_DATA = [
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755925/cristiano-ronaldo-portugal-gods-plan-cr7-football-legend-4k-wallpaper-21344.jpg",
   tags: ["cristiano-ronaldo", "ronaldo", "portugal", "football", "soccer", "gods-plan", "mobile"]
 }
-
-
 
   
 ];
