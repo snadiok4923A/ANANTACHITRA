@@ -1422,7 +1422,64 @@ export const WALLPAPER_DATA = [
   title: "Cristiano Ronaldo God's Plan",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755925/cristiano-ronaldo-portugal-gods-plan-cr7-football-legend-4k-wallpaper-21344.jpg",
   tags: ["cristiano-ronaldo", "ronaldo", "portugal", "football", "soccer", "gods-plan", "mobile"]
+    },
+
+{
+  id: 237,
+  title: "Lord Hanuman",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755924/lord-hanuman-5120x2880-14733.jpg",
+  tags: ["lord-hanuman", "hanuman", "hindu", "god", "spiritual", "devotional", "4k", "pc"]
+},
+{
+  id: 238,
+  title: "Divine Aesthetic",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755923/7952025.jpg",
+  tags: ["divine", "spiritual", "aesthetic", "god", "devotional", "4k", "pc"]
+},
+{
+  id: 239,
+  title: "Ascension to Heaven",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755923/ascension-to-heaven-jesus-christ-divine-religious-aesthetic-4k-wallpaper-21518.jpg",
+  tags: ["jesus", "christ", "ascension", "heaven", "divine", "religious", "spiritual", "4k", "pc"]
+},
+{
+  id: 240,
+  title: "Lord Hanuman Hindu",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755921/lord-hanuman-hindu-3840x2160-14681.jpg",
+  tags: ["lord-hanuman", "hanuman", "hindu", "god", "spiritual", "devotional", "4k", "pc"]
+},
+{
+  id: 241,
+  title: "Divine Spiritual Art",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755917/7952018.jpg",
+  tags: ["divine", "spiritual", "religious", "aesthetic", "devotional", "4k", "pc"]
+},
+{
+  id: 242,
+  title: "Phil Foden Manchester City",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755910/phil-foden-manchester-city-celebration-man-city-premier-league-4k-wallpaper-21342.jpg",
+  tags: ["phil-foden", "foden", "manchester-city", "football", "premier-league", "celebration", "4k", "pc"]
+},
+{
+  id: 243,
+  title: "Lord Hanuman",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755906/lord-hanuman-3840x2160-14765.png",
+  tags: ["lord-hanuman", "hanuman", "hindu", "god", "spiritual", "devotional", "4k", "pc"]
+},
+{
+  id: 244,
+  title: "Divine Spiritual Artwork",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755903/374510.jpg",
+  tags: ["divine", "spiritual", "religious", "god", "devotional", "aesthetic", "4k", "pc"]
+},
+{
+  id: 245,
+  title: "Jesus the Shepherd",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755900/jesus-shepherd-4k-wallpaper-21586.webp",
+  tags: ["jesus", "christ", "shepherd", "religious", "spiritual", "divine", "devotional", "4k", "pc"]
 }
+
+
 
   
 ];
