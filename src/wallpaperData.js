@@ -137,7 +137,7 @@ export const WALLPAPER_DATA = [
   id: 22,
   title: "Miles Morales Red",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787774297/miles-morales-red-5120x2880-22574.png",
-  tags: ["miles-morales", "spider-man", "marvel", "anime", "superhero", "red", "black", "amoled", "pc","popular"]
+  tags: ["miles-morales", "spider-man","spiderman", "marvel", "anime", "superhero", "red", "black", "amoled", "pc","popular"]
 },
 {
   id: 23,
@@ -281,7 +281,7 @@ export const WALLPAPER_DATA = [
   id: 46,
   title: "Marvel's Spider-Man",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787774144/marvels-spider-man-playstation-4-pro-gameplay-marvel-3840x2160-3564.jpg",
-  tags: ["spider-man", "marvel", "superhero", "gaming", "playstation", "action", "red", "city", "pc","popular"]
+  tags: ["spider-man", "marvel", "spiderman", "superhero", "gaming", "playstation", "action", "red", "city", "pc","popular"]
 },
 {
   id: 47,
@@ -293,7 +293,7 @@ export const WALLPAPER_DATA = [
   id: 48,
   title: "Spider-Man",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787774136/marvels-spider-man-3840x2160-26997.jpg",
-  tags: ["spider-man", "marvel", "superhero", "gaming", "web-slinger", "action", "city", "red", "pc","popular"]
+  tags: ["spider-man", "marvel", "spiderman", "superhero", "gaming", "web-slinger", "action", "city", "red", "pc","popular"]
 },
 {
   id: 49,
@@ -713,13 +713,13 @@ export const WALLPAPER_DATA = [
   id: 118,
   title: "Spider-Man Across the Spider-Verse",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787817416/spider-man-across-7680x4320-11476.png",
-  tags: ["spider-man", "across-the-spider-verse", "marvel", "miles-morales", "anime", "superhero", "4k", "pc","popular"]
+  tags: ["spider-man","spiderman", "across-the-spider-verse", "marvel", "miles-morales", "anime", "superhero", "4k", "pc","popular"]
 },
 {
   id: 119,
   title: "Miles Morales Spider-Man",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787817392/spider-man-into-the-spider-verse-miles-morales-spider-man-5000x2250-2948.jpg",
-  tags: ["miles-morales", "spider-man", "spider-verse", "marvel", "superhero", "anime", "cinematic", "pc","popular"]
+  tags: ["miles-morales","spiderman", "spider-man", "spider-verse", "marvel", "superhero", "anime", "cinematic", "pc","popular"]
 },
 {
   id: 120,
@@ -815,7 +815,7 @@ export const WALLPAPER_DATA = [
   id: 135,
   title: "Spider-Man Marvel",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787822092/spider-man-marvel-6000x4000-11025.jpg",
-  tags: ["spider-man", "marvel", "superhero", "comic", "action", "hero", "popular", "pc"]
+  tags: ["spider-man","spiderman", "marvel", "superhero", "comic", "action", "hero", "popular", "pc"]
 },
 {
   id: 136,
@@ -857,19 +857,19 @@ export const WALLPAPER_DATA = [
   id: 142,
   title: "Spider-Man Sky",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930776/spiderman-sky-4k-wallpaper-22372.jpg",
-  tags: ["spider-man", "marvel", "superhero", "sky", "action", "comic", "popular", "mobile"]
+  tags: ["spider-man","spiderman", "marvel", "superhero", "sky", "action", "comic", "popular", "mobile"]
 },
 {
   id: 143,
   title: "Spider-Man Skyscraper Ascent",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930775/spider-man-skyscraper-ascent-4k-wallpaper-27324.png",
-  tags: ["spider-man", "marvel", "superhero", "skyscraper", "city", "action", "popular", "mobile"]
+  tags: ["spider-man", "marvel","spiderman", "superhero", "skyscraper", "city", "action", "popular", "mobile"]
 },
 {
   id: 144,
   title: "Spider-Man No Internet",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930771/spider-man-no-internet-wallpaper-46409.jpg",
-  tags: ["spider-man", "marvel", "superhero", "no-internet", "offline", "minimal", "popular", "mobile"]
+  tags: ["spider-man","spiderman", "marvel", "superhero", "no-internet", "offline", "minimal", "popular", "mobile"]
 },
 {
   id: 145,
@@ -893,7 +893,7 @@ export const WALLPAPER_DATA = [
   id: 148,
   title: "Spider-Man Comic",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930767/spiderman-comic-4k-wallpaper-23330.jpg",
-  tags: ["spider-man", "marvel", "comic", "superhero", "red", "action", "popular", "mobile"]
+  tags: ["spider-man", "spiderman","marvel", "comic", "superhero", "red", "action", "popular", "mobile"]
 },
 {
   id: 149,
@@ -905,7 +905,7 @@ export const WALLPAPER_DATA = [
   id: 150,
   title: "Spider-Man Emblem",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930764/spider-man-emblem-symbol-minimalist-marvel-superhero-logo-4k-wallpaper-21624.webp",
-  tags: ["spider-man", "marvel", "logo", "emblem", "symbol", "minimal", "superhero", "popular", "mobile"]
+  tags: ["spider-man","spiderman", "marvel", "logo", "emblem", "symbol", "minimal", "superhero", "popular", "mobile"]
 },
 {
   id: 151,
@@ -917,13 +917,13 @@ export const WALLPAPER_DATA = [
   id: 152,
   title: "Spider-Man 4K",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930761/spider-man-4k-wallpaper-23003.jpg",
-  tags: ["spider-man", "marvel", "superhero", "action", "red", "comic", "4k", "popular", "mobile"]
+  tags: ["spider-man", "marvel", "spiderman","superhero", "action", "red", "comic", "4k", "popular", "mobile"]
 },
 {
   id: 153,
   title: "Spider-Man 3D",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930761/spiderman-3d-wallpaper-21829.webp",
-  tags: ["spider-man", "marvel", "3d", "superhero", "digital-art", "action", "popular", "mobile"]
+  tags: ["spider-man","spiderman", "marvel", "3d", "superhero", "digital-art", "action", "popular", "mobile"]
 },
 {
   id: 154,
@@ -953,7 +953,7 @@ export const WALLPAPER_DATA = [
   id: 158,
   title: "Shadow Spider-Man Shush",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930754/shadow-spider-man-shush-wallpaper-46786.webp",
-  tags: ["spider-man", "marvel", "shadow", "shush", "superhero", "dark", "minimal", "popular", "mobile"]
+  tags: ["spider-man","spiderman", "marvel", "shadow", "shush", "superhero", "dark", "minimal", "popular", "mobile"]
 },
 {
   id: 159,
@@ -1049,7 +1049,7 @@ export const WALLPAPER_DATA = [
   id: 174,
   title: "Miles and Gwen Multiverse",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930729/multiverse-miles-gwen-cinematic-4k-wallpaper-22533.webp",
-  tags: ["miles-morales", "gwen-stacy", "spider-verse", "multiverse", "marvel", "cinematic", "superhero", "popular", "mobile"]
+  tags: ["miles-morales","spiderman", "gwen-stacy", "spider-verse", "multiverse", "marvel", "cinematic", "superhero", "popular", "mobile"]
 },
 {
   id: 175,
