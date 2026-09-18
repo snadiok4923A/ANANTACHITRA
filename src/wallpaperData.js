@@ -1380,7 +1380,50 @@ export const WALLPAPER_DATA = [
   title: "White Ferrari 458 Italia",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1787930616/white-ferrari-458-italia-4k-wallpaper-24386.jpg",
   tags: ["ferrari", "458-italia", "car", "supercar", "white", "luxury", "automotive", "popular", "mobile"]
+    },
+{
+  id: 230,
+  title: "Dancing Deity Sculpture",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789756018/Gemini_Generated_Image_gbxvdkgbxvdkgbxv.png",
+  tags: ["deity", "sculpture", "temple", "indian-art", "spiritual", "dark", "pc"]
+},
+{
+  id: 231,
+  title: "Dancing Krishna Sky",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755998/dancing-krishna-sky-wallpaper-48189.jpg",
+  tags: ["krishna", "dancing-krishna", "hindu", "spiritual", "sky", "indian", "mobile"]
+},
+{
+  id: 232,
+  title: "Colorful Temple Gopuram",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755979/Gemini_Generated_Image_pbesvqpbesvqpbes.png",
+  tags: ["temple", "gopuram", "hindu", "indian-art", "colorful", "architecture", "mobile"]
+},
+{
+  id: 233,
+  title: "Indian Art",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755967/Gemini_Generated_Image_5gye0v5gye0v5gye.png",
+  tags: ["indian-art", "spiritual", "indian", "traditional", "art", "aesthetic", "pc"]
+},
+{
+  id: 234,
+  title: "Erling Haaland Manchester City",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755937/erling-haaland-manchester-city-triumph-premier-league-4k-wallpaper-22616.png",
+  tags: ["erling-haaland", "manchester-city", "football", "soccer", "premier-league", "sports", "mobile"]
+},
+{
+  id: 235,
+  title: "Dark Christ Glowing Halo",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755931/dark-christ-figure-glowing-halo-aesthetic-wallpaper-20108.webp",
+  tags: ["christ", "jesus", "religious", "halo", "dark", "spiritual", "mobile"]
+},
+{
+  id: 236,
+  title: "Cristiano Ronaldo God's Plan",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755925/cristiano-ronaldo-portugal-gods-plan-cr7-football-legend-4k-wallpaper-21344.jpg",
+  tags: ["cristiano-ronaldo", "ronaldo", "portugal", "football", "soccer", "gods-plan", "mobile"]
 }
+
 
 
   
