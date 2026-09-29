@@ -1513,7 +1513,28 @@ export const WALLPAPER_DATA = [
   title: "Mountain Lake View",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790705781/pexels-jonathanschmer-6196828.jpg",
   tags: ["mountain", "lake", "nature", "landscape", "river", "scenic", "clouds", "mobile"]
+    },
+
+{
+  id: 252,
+  title: "Misty Mountain Lake",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790706535/ameer-basheer-gV6taBJuBTk-unsplash.jpg",
+  tags: ["mountain", "lake", "mist", "nature", "landscape", "fog", "scenic", "pc"]
+},
+{
+  id: 253,
+  title: "Mountain Landscape",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790706532/maxim-berg-3E2xgrlNXq4-unsplash.jpg",
+  tags: ["mountain", "landscape", "nature", "scenic", "sky", "adventure", "pc"]
+},
+{
+  id: 254,
+  title: "Nature Landscape",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790706531/philip-oroni-ZQBnQAxjxlk-unsplash.jpg",
+  tags: ["nature", "landscape", "mountains", "scenic", "outdoor", "aesthetic", "pc"]
 }
+
+
 
 
 
