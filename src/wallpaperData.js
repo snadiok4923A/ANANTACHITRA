@@ -1477,6 +1477,42 @@ export const WALLPAPER_DATA = [
   title: "Jesus the Shepherd",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1789755900/jesus-shepherd-4k-wallpaper-21586.webp",
   tags: ["jesus", "christ", "shepherd", "religious", "spiritual", "divine", "devotional", "4k", "pc"]
+    },
+{
+  id: 246,
+  title: "Black Abstract Waves",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790705798/Gemini_Generated_Image_u6bxrru6bxrru6bx.png",
+  tags: ["abstract", "black", "dark", "waves", "minimal", "aesthetic", "pc"]
+},
+{
+  id: 247,
+  title: "Mountain Lake",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790705796/pexels-owlet-9838289.jpg",
+  tags: ["mountain", "lake", "nature", "landscape", "snow", "scenic", "aesthetic", "mobile"]
+},
+{
+  id: 248,
+  title: "Green Hills",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790705789/pexels-mustafa-cimen-395821967-17559576.jpg",
+  tags: ["nature", "green", "hills", "landscape", "forest", "sky", "scenic", "mobile"]
+},
+{
+  id: 249,
+  title: "Purple Ocean Sunset",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790705788/pexels-kienvirak-4826377.jpg",
+  tags: ["sunset", "ocean", "sea", "purple", "sky", "nature", "aesthetic", "pc"]
+},
+{
+  id: 250,
+  title: "City Skyscrapers",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790705782/pexels-mhajrinvincible-5869891.jpg",
+  tags: ["city", "skyscraper", "architecture", "buildings", "urban", "dark", "aesthetic", "mobile"]
+},
+{
+  id: 251,
+  title: "Mountain Lake View",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790705781/pexels-jonathanschmer-6196828.jpg",
+  tags: ["mountain", "lake", "nature", "landscape", "river", "scenic", "clouds", "mobile"]
 }
 
 
