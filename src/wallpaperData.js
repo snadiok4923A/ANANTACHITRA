@@ -1532,7 +1532,63 @@ export const WALLPAPER_DATA = [
   title: "Nature Landscape",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790706531/philip-oroni-ZQBnQAxjxlk-unsplash.jpg",
   tags: ["nature", "landscape", "mountains", "scenic", "outdoor", "aesthetic", "pc"]
+},
+{
+  id: 255,
+  title: "Wolverine High",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785911/wolverine-high-7680x4320-27238.jpg",
+  tags: ["wolverine", "marvel", "superhero", "x-men", "comic", "action", "4k", "pc"]
+},
+{
+  id: 256,
+  title: "Spider-Man Across",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785676/spider-man-across-5120x3131-11602.jpg",
+  tags: ["spider-man", "marvel", "superhero", "across-the-spider-verse", "action", "comic", "4k", "pc"]
+},
+{
+  id: 257,
+  title: "Call of Duty Black",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785671/call-of-duty-black-5120x2880-23628.jpg",
+  tags: ["call-of-duty", "gaming", "fps", "war", "action", "soldier", "4k", "pc"]
+},
+{
+  id: 258,
+  title: "Bluey and Bingo",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785664/bluey-and-bingo-the-5120x2880-27104.jpg",
+  tags: ["bluey", "bingo", "cartoon", "animation", "family", "cute", "4k", "pc"]
+},
+{
+  id: 259,
+  title: "Lisa Press Play",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785649/lisa-press-play-5k-3840x2160-27157.jpg",
+  tags: ["lisa", "blackpink", "k-pop", "singer", "music", "aesthetic", "5k", "pc"]
+},
+{
+  id: 260,
+  title: "Soul Assassin",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785642/soul-assassin-3840x2160-27156.jpg",
+  tags: ["soul-assassin", "assassin", "dark", "warrior", "action", "gaming", "4k", "pc"]
+},
+{
+  id: 261,
+  title: "Onimusha Way of the Sword",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785631/onimusha-way-of-the-3840x2160-27225.png",
+  tags: ["onimusha", "way-of-the-sword", "samurai", "warrior", "japanese", "gaming", "4k", "pc"]
+},
+{
+  id: 262,
+  title: "Lisa Press Play",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785631/lisa-press-play-5120x2880-27215.jpg",
+  tags: ["lisa", "blackpink", "k-pop", "singer", "music", "aesthetic", "4k", "pc"]
+},
+{
+  id: 263,
+  title: "Painting Vibe Atmosphere",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785629/painting-wallpaper-3840x2160-vibe-atmosphere-271.jpg",
+  tags: ["painting", "art", "vibe", "atmosphere", "aesthetic", "creative", "4k", "pc"]
 }
+
+
 
 
 
