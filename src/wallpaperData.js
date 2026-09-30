@@ -1725,7 +1725,54 @@ export const WALLPAPER_DATA = [
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786560/pubg-anniversary-key-art-3840x2160-18443.jpg",
   tags: ["pubg", "anniversary", "gaming", "battle-royale", "shooter", "action", "key-art", "4k", "pc"]
 },
-
+{
+  id: 287,
+  title: "Unknown 9 Awakening",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787368/unknown-9-awakening-3840x2160-18910.jpg",
+  tags: ["unknown-9", "awakening", "gaming", "action", "adventure", "fantasy", "4k", "pc"]
+},
+{
+  id: 288,
+  title: "The First",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787364/the-first-3840x2160-18828.jpg",
+  tags: ["the-first", "gaming", "action", "adventure", "sci-fi", "cinematic", "4k", "pc"]
+},
+{
+  id: 289,
+  title: "October Halloween",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787346/october-wallpaper-3840x2160-haunting-playful-26682.jpg",
+  tags: ["october", "halloween", "autumn", "haunting", "playful", "dark", "seasonal", "4k", "pc"]
+},
+{
+  id: 290,
+  title: "Tekken 8 Reina",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787345/tekken-8-reina-3840x2160-14535.jpg",
+  tags: ["tekken-8", "reina", "fighting", "gaming", "anime", "action", "character", "4k", "pc"]
+},
+{
+  id: 291,
+  title: "Fantasy Character",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787338/26548405.png",
+  tags: ["fantasy", "character", "warrior", "gaming", "action", "dark", "cinematic", "pc"]
+},
+{
+  id: 292,
+  title: "Fantasy Warrior",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787331/26548361.jpg",
+  tags: ["fantasy", "warrior", "character", "gaming", "action", "adventure", "dark", "pc"]
+},
+{
+  id: 293,
+  title: "Dark Fantasy Warrior",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787331/26548395.jpg",
+  tags: ["dark-fantasy", "warrior", "character", "gaming", "action", "battle", "cinematic", "pc"]
+},
+{
+  id: 294,
+  title: "Fantasy Battle",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787330/26548378.jpg",
+  tags: ["fantasy", "battle", "warrior", "gaming", "action", "adventure", "cinematic", "pc"]
+}
 
 
 
