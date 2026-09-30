@@ -1586,6 +1586,66 @@ export const WALLPAPER_DATA = [
   title: "Painting Vibe Atmosphere",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790785629/painting-wallpaper-3840x2160-vibe-atmosphere-271.jpg",
   tags: ["painting", "art", "vibe", "atmosphere", "aesthetic", "creative", "4k", "pc"]
+    },
+{
+  id: 264,
+  title: "Call of Duty Black",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786228/call-of-duty-black-5120x2880-23674.jpg",
+  tags: ["call-of-duty", "black-ops", "gaming", "fps", "war", "action", "soldier", "4k", "pc"]
+},
+{
+  id: 265,
+  title: "Defender Dakar",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786223/defender-dakar-7680x4320-27185.jpg",
+  tags: ["land-rover", "defender", "dakar", "suv", "off-road", "car", "adventure", "4k", "pc"]
+},
+{
+  id: 266,
+  title: "Wildflower Meadows",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786208/wildflower-meadows-wallpaper-3840x2160-flower-season-colorful-landscapes-29897.jpg",
+  tags: ["wildflower", "meadow", "flowers", "nature", "landscape", "colorful", "spring", "4k", "pc"]
+},
+{
+  id: 267,
+  title: "Monkey D. Luffy",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786193/monkey-d-luffy-3840x2160-25499.jpg",
+  tags: ["monkey-d-luffy", "luffy", "one-piece", "anime", "pirate", "anime-character", "4k", "pc"]
+},
+{
+  id: 268,
+  title: "Rainbow Colors",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786193/rainbow-colors-wallpaper-3840x2160-artistic-silhouettes-atmospheric-lighting-29802.jpg",
+  tags: ["rainbow", "colors", "silhouette", "art", "artistic", "atmospheric", "aesthetic", "4k", "pc"]
+},
+{
+  id: 269,
+  title: "Abandoned Robot",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786193/robot-wallpaper-3840x2160-abandoned-lush-26626.jpg",
+  tags: ["robot", "abandoned", "sci-fi", "technology", "jungle", "nature", "cinematic", "4k", "pc"]
+},
+{
+  id: 270,
+  title: "Lucia Caminos",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786171/lucia-caminos-3840x2160-27216.jpg",
+  tags: ["lucia-caminos", "character", "gaming", "cinematic", "action", "aesthetic", "4k", "pc"]
+},
+{
+  id: 271,
+  title: "PUBG Battlegrounds",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786169/pubg-playerunknowns-battlegrounds-2022-games-5k-6381x3590-7976.jpg",
+  tags: ["pubg", "playerunknowns-battlegrounds", "gaming", "battle-royale", "action", "shooter", "5k", "pc"]
+},
+{
+  id: 272,
+  title: "Naraka Bladepoint",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786157/naraka-bladepoint-3840x2160-22863.jpg",
+  tags: ["naraka-bladepoint", "gaming", "warrior", "sword", "action", "fantasy", "4k", "pc"]
+},
+{
+  id: 273,
+  title: "Black Ops 6 Warzone",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786156/black-ops-6-warzone-3840x2160-19812.jpg",
+  tags: ["black-ops-6", "warzone", "call-of-duty", "gaming", "fps", "military", "action", "4k", "pc"]
 }
 
 
