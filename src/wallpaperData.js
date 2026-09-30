@@ -1646,7 +1646,85 @@ export const WALLPAPER_DATA = [
   title: "Black Ops 6 Warzone",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786156/black-ops-6-warzone-3840x2160-19812.jpg",
   tags: ["black-ops-6", "warzone", "call-of-duty", "gaming", "fps", "military", "action", "4k", "pc"]
-}
+    },
+{
+  id: 274,
+  title: "Godzilla Minus Zero",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786689/godzilla-minus-zero-3840x2160-27257.jpg",
+  tags: ["godzilla", "minus-zero", "monster", "kaiju", "movie", "action", "cinematic", "4k", "pc"]
+},
+{
+  id: 275,
+  title: "Vibrant Flowers",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786689/vibrant-flowers-wallpaper-3840x2160-bright-landscapes-renewal-29899.jpg",
+  tags: ["flowers", "vibrant", "nature", "landscape", "colorful", "spring", "bright", "4k", "pc"]
+},
+{
+  id: 276,
+  title: "Lonely Highway",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786684/lonely-highway-wallpaper-3840x2160-moody-abandoned-road-29926.jpg",
+  tags: ["lonely-highway", "road", "highway", "moody", "dark", "landscape", "cinematic", "4k", "pc"]
+},
+{
+  id: 277,
+  title: "NHL 27",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786685/nhl-27-key-art-3840x2160-27239.jpg",
+  tags: ["nhl-27", "hockey", "ice-hockey", "sports", "gaming", "athlete", "4k", "pc"]
+},
+{
+  id: 278,
+  title: "Assassins Creed",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786673/assassins-creed-3840x2160-21654.jpg",
+  tags: ["assassins-creed", "assassin", "gaming", "warrior", "action", "historical", "stealth", "4k", "pc"]
+},
+{
+  id: 279,
+  title: "Avengers Endgame",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786642/avengers-endgame-5120x2880-27245.jpg",
+  tags: ["avengers", "endgame", "marvel", "superhero", "iron-man", "action", "movie", "4k", "pc"]
+},
+{
+  id: 280,
+  title: "Delta Force Season",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786640/delta-force-season-3840x2160-27247.jpg",
+  tags: ["delta-force", "gaming", "fps", "military", "soldier", "action", "war", "4k", "pc"]
+},
+{
+  id: 281,
+  title: "Star Wars Zero",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786636/star-wars-zero-5120x2880-27226.jpg",
+  tags: ["star-wars", "star-wars-zero", "sci-fi", "space", "galaxy", "movie", "action", "4k", "pc"]
+},
+{
+  id: 282,
+  title: "Garena Free Fire",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786608/garena-free-fire-android-games-ios-games-3840x2160-4103.jpg",
+  tags: ["free-fire", "garena", "gaming", "battle-royale", "shooter", "action", "mobile-game", "4k", "pc"]
+},
+{
+  id: 283,
+  title: "PUBG Erangel Map",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786607/pubg-erangel-map-5k-5120x2880-18566.jpg",
+  tags: ["pubg", "erangel", "battle-royale", "gaming", "map", "shooter", "5k", "pc"]
+},
+{
+  id: 284,
+  title: "PUBG Helmet",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786592/pubg-helmet-dope-3840x2160-19966.png",
+  tags: ["pubg", "helmet", "gaming", "battle-royale", "shooter", "military", "4k", "pc"]
+},
+{
+  id: 285,
+  title: "Floral Landscapes",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786592/floral-landscapes-wallpaper-3840x2160-spring-beauty-colorful-blossoms-29910.jpg",
+  tags: ["floral", "flowers", "landscape", "nature", "spring", "colorful", "blossoms", "4k", "pc"]
+},
+{
+  id: 286,
+  title: "PUBG Anniversary",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790786560/pubg-anniversary-key-art-3840x2160-18443.jpg",
+  tags: ["pubg", "anniversary", "gaming", "battle-royale", "shooter", "action", "key-art", "4k", "pc"]
+},
 
 
 
