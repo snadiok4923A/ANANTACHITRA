@@ -2066,6 +2066,90 @@ export const WALLPAPER_DATA = [
   title: "Dice Play",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876735/dice-play-st-44184.jpg",
   tags: ["dice", "game", "casino", "dark", "gaming", "aesthetic", "mobile"]
+    },
+{
+  id: 344,
+  title: "Ethereal Anime Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878093/Gemini_Generated_Image_lfalw2lfalw2lfal.png",
+  tags: ["anime-girl", "ethereal", "portrait", "dreamy", "aesthetic", "digital-art", "pc"]
+},
+{
+  id: 345,
+  title: "Fantasy Fox Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878091/Gemini_Generated_Image_20b10b20b10b20b1.png",
+  tags: ["fox-girl", "fantasy", "anime", "character", "digital-art", "aesthetic", "mobile"]
+},
+{
+  id: 346,
+  title: "Fantasy Warrior",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878084/Gemini_Generated_Image_71kpl71kpl71kpl7.png",
+  tags: ["fantasy", "warrior", "knight", "battle", "digital-art", "cinematic", "pc"]
+},
+{
+  id: 347,
+  title: "Roman Emperor",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878084/Gemini_Generated_Image_49zuvr49zuvr49zu.png",
+  tags: ["roman", "emperor", "ancient", "historical", "fantasy", "warrior", "cinematic", "pc"]
+},
+{
+  id: 348,
+  title: "Floating Astronaut",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878082/remove_the_texts_of_the_image_and_give_the_image_in_high_quality.png",
+  tags: ["astronaut", "space", "floating", "sky", "orange", "cinematic", "mobile"]
+},
+{
+  id: 349,
+  title: "Fantasy Character",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878082/Gemini_Generated_Image_etljyaetljyaetlj.png",
+  tags: ["fantasy", "character", "digital-art", "cinematic", "aesthetic", "creative", "pc"]
+},
+{
+  id: 350,
+  title: "Ocean Sunset Couple",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878071/Gemini_Generated_Image_yqfj6lyqfj6lyqfj.png",
+  tags: ["couple", "ocean", "sunset", "sea", "romantic", "cinematic", "pc"]
+},
+{
+  id: 351,
+  title: "Cyberpunk Seaside",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878059/Gemini_Generated_Image_r35ftpr35ftpr35f.png",
+  tags: ["cyberpunk", "seaside", "girl", "motorcycle", "neon", "futuristic", "pc"]
+},
+{
+  id: 352,
+  title: "Fantasy Landscape",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878049/Gemini_Generated_Image_qx24z7qx24z7qx24.png",
+  tags: ["fantasy", "landscape", "digital-art", "cinematic", "dreamy", "aesthetic", "pc"]
+},
+{
+  id: 353,
+  title: "Chinese Fantasy Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878039/Gemini_Generated_Image_qlbpmjqlbpmjqlbp.png",
+  tags: ["fantasy", "chinese", "girl", "traditional", "digital-art", "colorful", "mobile"]
+},
+{
+  id: 354,
+  title: "Seaside Couple",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878024/Gemini_Generated_Image_en4f3uen4f3uen4f.png",
+  tags: ["couple", "seaside", "sunset", "romantic", "ocean", "cinematic", "pc"]
+},
+{
+  id: 355,
+  title: "Egyptian Cat Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878021/Gemini_Generated_Image_9gz90a9gz90a9gz9.png",
+  tags: ["egyptian", "cat-girl", "ancient", "fantasy", "portrait", "digital-art", "mobile"]
+},
+{
+  id: 356,
+  title: "Fantasy Warrior Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878014/Gemini_Generated_Image_9rvbrs9rvbrs9rvb.png",
+  tags: ["warrior", "fantasy", "girl", "sword", "character", "digital-art", "mobile"]
+},
+{
+  id: 357,
+  title: "Anime Couple",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790878011/Gemini_Generated_Image_6p4wl16p4wl16p4w.png",
+  tags: ["anime", "couple", "cat", "girl", "boy", "aesthetic", "digital-art", "mobile"]
 }
 
 
