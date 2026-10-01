@@ -1772,7 +1772,146 @@ export const WALLPAPER_DATA = [
   title: "Fantasy Battle",
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790787330/26548378.jpg",
   tags: ["fantasy", "battle", "warrior", "gaming", "action", "adventure", "cinematic", "pc"]
-}
+    },
+{
+  id: 295,
+  title: "K-Pop Portrait",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876404/2.png",
+  tags: ["k-pop", "portrait", "girl", "beauty", "aesthetic", "fashion", "pc"]
+},
+{
+  id: 296,
+  title: "K-Pop Fashion",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876392/1.png",
+  tags: ["k-pop", "girl", "fashion", "portrait", "beauty", "aesthetic", "pc"]
+},
+{
+  id: 297,
+  title: "Nikola Tesla",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876392/iconic-nikola-tesla-4k-wallpaper-29915.jpg",
+  tags: ["nikola-tesla", "scientist", "portrait", "black-and-white", "history", "iconic", "4k", "mobile"]
+},
+{
+  id: 298,
+  title: "Mysterious Engraved Eye",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876391/mysterious-engraved-eye-wallpaper-51705.jpg",
+  tags: ["eye", "engraved", "mysterious", "dark", "art", "aesthetic", "wallpaper", "mobile"]
+},
+{
+  id: 299,
+  title: "Mountain House",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876390/mountains-house-4k-wallpaper-22951.jpg",
+  tags: ["mountains", "house", "landscape", "nature", "mist", "japanese", "4k", "mobile"]
+},
+{
+  id: 300,
+  title: "Tyler Durden",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876387/gritty-tyler-durden-smoking-brad-pitt-fight-club-grunge-wall-4k-wallpaper-21167.png",
+  tags: ["tyler-durden", "fight-club", "brad-pitt", "grunge", "dark", "cinematic", "4k", "mobile"]
+},
+{
+  id: 301,
+  title: "Cybernetic Spider",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876387/cybernetic-spider-glow-wallpaper-41704.jpg",
+  tags: ["spider", "cybernetic", "glow", "technology", "dark", "sci-fi", "futuristic", "mobile"]
+},
+{
+  id: 302,
+  title: "Mira K-Pop Demon Hunters",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876387/mira-kpop-demon-hunters-movie-wallpaper-iphone-11313.jpg",
+  tags: ["mira", "k-pop", "demon-hunters", "anime", "movie", "character", "aesthetic", "mobile"]
+},
+{
+  id: 303,
+  title: "Miyamoto Musashi",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876383/miyamoto-musashi-4k-wallpaper-22343.webp",
+  tags: ["miyamoto-musashi", "samurai", "warrior", "japanese", "sword", "anime", "4k", "mobile"]
+},
+{
+  id: 304,
+  title: "Hasbulla Championship",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876376/hasbulla-championship-belts-wallpaper-32726.jpg",
+  tags: ["hasbulla", "championship", "belts", "ufc", "fighter", "black-and-white", "mobile"]
+},
+{
+  id: 305,
+  title: "Hinata",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876377/hinata-4k-wallpaper-22716.jpg",
+  tags: ["hinata", "anime", "character", "anime-girl", "aesthetic", "4k", "mobile"]
+},
+{
+  id: 306,
+  title: "Dark Knight",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876372/dark-knights-menace-red-outline-batman-villain-aesthetic-live-wallpaper-20801.webp",
+  tags: ["batman", "dark-knight", "villain", "red", "dark", "aesthetic", "live-wallpaper", "mobile"]
+},
+{
+  id: 307,
+  title: "Couple Embrace",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876364/couple-embrace-4k-wallpaper-22962.jpg",
+  tags: ["couple", "love", "embrace", "romantic", "relationship", "aesthetic", "4k", "mobile"]
+},
+{
+  id: 308,
+  title: "Audi RS3",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876363/audi-rs3-4k-wallpaper-22766.webp",
+  tags: ["audi-rs3", "audi", "car", "automotive", "luxury", "dark", "4k", "mobile"]
+},
+{
+  id: 309,
+  title: "Beacon of Light",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876363/beacon-of-light-wallpaper-51368.jpg",
+  tags: ["beacon", "light", "angel", "statue", "spiritual", "dark", "aesthetic", "mobile"]
+},
+{
+  id: 310,
+  title: "Ariana Grande Dangerous Woman",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876361/ariana-grande-dangerous-woman-aesthetic-monochrome-bunny-mask-wallpaper-36253.jpg",
+  tags: ["ariana-grande", "dangerous-woman", "bunny-mask", "monochrome", "singer", "aesthetic", "mobile"]
+},
+{
+  id: 311,
+  title: "Urban Night",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876360/urbanight-44195.png",
+  tags: ["urban", "night", "city", "dark", "street", "aesthetic", "mobile"]
+},
+{
+  id: 312,
+  title: "SUGA Dynamic Pose",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876361/suga-dynamic-pose-wallpaper-43327.jpg",
+  tags: ["suga", "bts", "k-pop", "dynamic", "portrait", "singer", "aesthetic", "mobile"]
+},
+{
+  id: 313,
+  title: "Alien X",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876360/alien-x-4k-wallpaper-22346.webp",
+  tags: ["alien-x", "ben-10", "alien", "superhero", "sci-fi", "character", "4k", "mobile"]
+},
+{
+  id: 314,
+  title: "Apollo Graffiti",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876358/apollo-graffiti-4k-wallpaper-22397.webp",
+  tags: ["apollo", "graffiti", "statue", "art", "street-art", "colorful", "4k", "mobile"]
+},
+{
+  id: 315,
+  title: "Angel Statue",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876356/angel-statue-4k-wallpaper-23156.jpg",
+  tags: ["angel", "statue", "wings", "spiritual", "dark", "art", "4k", "mobile"]
+},
+{
+  id: 316,
+  title: "Playful Peek",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876354/txt-playful-peek-wallpaper-43344.jpg",
+  tags: ["txt", "k-pop", "group", "playful", "boys", "aesthetic", "mobile"]
+},
+{
+  id: 317,
+  title: "Dark Anime Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876346/anime-girl-4k-wallpaper-22945.jpg",
+  tags: ["anime-girl", "anime", "dark", "blue-eyes", "aesthetic", "black", "4k", "mobile"]
+    },
+
 
 
 
