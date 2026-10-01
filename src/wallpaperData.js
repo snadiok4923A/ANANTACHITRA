@@ -1911,7 +1911,162 @@ export const WALLPAPER_DATA = [
   image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876346/anime-girl-4k-wallpaper-22945.jpg",
   tags: ["anime-girl", "anime", "dark", "blue-eyes", "aesthetic", "black", "4k", "mobile"]
     },
-
+{
+  id: 318,
+  title: "SUGA Agust D Spotlight",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876765/suga-agust-d-spotlight-wallpaper-43373.jpg",
+  tags: ["suga", "agust-d", "bts", "k-pop", "singer", "spotlight", "aesthetic", "mobile"]
+},
+{
+  id: 319,
+  title: "Ariana Grande Bunny Mask",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876764/sleek-ariana-bunny-mask-wallpaper-36255.jpg",
+  tags: ["ariana-grande", "bunny-mask", "dangerous-woman", "singer", "k-pop", "aesthetic", "mobile"]
+},
+{
+  id: 320,
+  title: "Sydney Sweeney",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876763/playful-sydney-sweeney-wallpaper-34634.jpg",
+  tags: ["sydney-sweeney", "actress", "portrait", "celebrity", "beauty", "aesthetic", "mobile"]
+},
+{
+  id: 321,
+  title: "BTS Group",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876763/stylish-bts-group-wallpaper-43328.jpg",
+  tags: ["bts", "k-pop", "boy-band", "group", "singers", "music", "aesthetic", "mobile"]
+},
+{
+  id: 322,
+  title: "Modern Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876762/sleek-modern-girl-wallpaper-41711.png",
+  tags: ["girl", "modern", "portrait", "fashion", "beauty", "aesthetic", "mobile"]
+},
+{
+  id: 323,
+  title: "Ethereal Woman Line Art",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876760/ethereal-woman-line-art-wallpaper-50339.jpg",
+  tags: ["woman", "line-art", "ethereal", "minimal", "art", "aesthetic", "mobile"]
+},
+{
+  id: 324,
+  title: "Statue",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876754/statue-4k-wallpaper-22725.jpg",
+  tags: ["statue", "sculpture", "art", "dark", "aesthetic", "ancient", "4k", "mobile"]
+},
+{
+  id: 325,
+  title: "Spider",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876751/spider-4k-wallpaper-22422.webp",
+  tags: ["spider", "insect", "dark", "nature", "macro", "aesthetic", "4k", "mobile"]
+},
+{
+  id: 326,
+  title: "Scarab Beetle",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876750/scarab-beetle-4k-wallpaper-22423.webp",
+  tags: ["scarab", "beetle", "insect", "egyptian", "dark", "gold", "4k", "mobile"]
+},
+{
+  id: 327,
+  title: "Green Neon Silhouette",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876748/green-neon-silhouette-wallpaper-37881.jpg",
+  tags: ["green", "neon", "silhouette", "glow", "dark", "abstract", "aesthetic", "mobile"]
+},
+{
+  id: 328,
+  title: "Bruce Wayne",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876748/robert-pattinson-sunglasses-bruce-wayne-the-batman-2022-aesthetic-wallpaper-21470.jpg",
+  tags: ["robert-pattinson", "bruce-wayne", "batman", "the-batman", "sunglasses", "dark", "aesthetic", "mobile"]
+},
+{
+  id: 329,
+  title: "Mira K-Pop Demon Hunters",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876747/mira-anime-girl-kpop-demon-hunters-movie-wallpaper-iphone-11276.jpg",
+  tags: ["mira", "k-pop", "demon-hunters", "anime", "girl", "movie", "iphone", "mobile"]
+},
+{
+  id: 330,
+  title: "Jungkook Star Eye",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876746/jungkook-star-eye-wallpaper-43369.jpg",
+  tags: ["jungkook", "bts", "k-pop", "singer", "star", "eye", "aesthetic", "mobile"]
+},
+{
+  id: 331,
+  title: "Zoey K-Pop Demon Hunters",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876746/kpop-demon-hunters-zoey-anime-girl-iphone-4k-13472.jpg",
+  tags: ["zoey", "k-pop", "demon-hunters", "anime", "girl", "iphone", "4k", "mobile"]
+},
+{
+  id: 332,
+  title: "K-Pop Demon Hunters",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876745/kpop-demon-hunters-wallpapers-mobile-hd-12967.jpg",
+  tags: ["k-pop", "demon-hunters", "anime", "characters", "movie", "mobile-hd", "mobile"]
+},
+{
+  id: 333,
+  title: "K-Pop Demon Hunters",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876745/kpop-demon-hunters-wallpapers-iphone-4k-13470.jpg",
+  tags: ["k-pop", "demon-hunters", "anime", "characters", "iphone", "4k", "mobile"]
+},
+{
+  id: 334,
+  title: "Rumi Performance",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876743/kpop-demon-hunters-rumi-performance-iphone-4k-13462.jpg",
+  tags: ["rumi", "k-pop", "demon-hunters", "performance", "anime", "iphone", "4k", "mobile"]
+},
+{
+  id: 335,
+  title: "K-Pop Demon Hunters",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876743/kpop-demon-hunters-wallpapers-hd-iphone-13469.jpg",
+  tags: ["k-pop", "demon-hunters", "anime", "characters", "iphone", "hd", "mobile"]
+},
+{
+  id: 336,
+  title: "K-Pop Demon Hunters",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876743/kpop-demon-hunters-wallpapers-hd-mobile-12961.jpg",
+  tags: ["k-pop", "demon-hunters", "anime", "characters", "hd", "mobile"]
+},
+{
+  id: 337,
+  title: "Ethereal Blue Glitch Girl",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876741/ethereal-blue-glitch-girl-dreamy-neon-blur-portrait-live-wallpaper-20799.webp",
+  tags: ["girl", "blue", "glitch", "neon", "dreamy", "portrait", "live-wallpaper", "mobile"]
+},
+{
+  id: 338,
+  title: "Goku and Shenron",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876740/goku-shenron-4k-wallpaper-23034.jpg",
+  tags: ["goku", "shenron", "dragon-ball", "anime", "super-saiyan", "dragon", "4k", "mobile"]
+},
+{
+  id: 339,
+  title: "I Love You",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876740/i-love-you-4k-edgy-love-you-middle-finger-typography-artistic-4k-wallpaper-22629.webp",
+  tags: ["i-love-you", "love", "typography", "edgy", "art", "middle-finger", "4k", "mobile"]
+},
+{
+  id: 340,
+  title: "Gojo Satoru",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876738/gojo-satoru-jujutsu-kaisen-six-eyes-anime-4k-wallpaper-22854.jpg",
+  tags: ["gojo-satoru", "jujutsu-kaisen", "anime", "six-eyes", "sorcerer", "character", "4k", "mobile"]
+},
+{
+  id: 341,
+  title: "Glowing Eye Wolf",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876736/glowing-eye-wolf-wallpaper-53376.jpg",
+  tags: ["wolf", "glowing-eyes", "animal", "dark", "wildlife", "aesthetic", "mobile"]
+},
+{
+  id: 342,
+  title: "Diamond Grill Pitbull",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876736/diamond-grill-pitbull-wallpaper-53365.jpg",
+  tags: ["pitbull", "dog", "diamond", "grill", "luxury", "dark", "aesthetic", "mobile"]
+},
+{
+  id: 343,
+  title: "Dice Play",
+  image: "https://res.cloudinary.com/eev7ddsv/image/upload/v1790876735/dice-play-st-44184.jpg",
+  tags: ["dice", "game", "casino", "dark", "gaming", "aesthetic", "mobile"]
+}
 
 
 
